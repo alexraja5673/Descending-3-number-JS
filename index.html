@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	 <title> Descending </title>
+</head>
+<body>
+	
+    <script>			
+			
+		var x=parseInt(prompt("enter a num"));
+		var y=parseInt(prompt("enter a num"));
+		var z=parseInt(prompt("enter a num"));
+		if(x>y){
+		  if(x>z){
+		    if (y>z){
+			  console.log("x="+x,"y="+y,"z="+z);
+			}else{
+			  console.log("x="+x,"z="+z,"y="+y);
+			}
+		  }
+		}
+		 else if(y>z){
+		  if(y>x){
+		    if (x>z){
+			  console.log("y="+y,"x="+x,"z="+z);
+			}else{
+			  console.log("y="+y,"z="+z,"x="+x);
+			}
+		  }
+		}
+		 else if(z>y){
+		  if(z>x){
+		    if (y>x){
+			  console.log("z="+z,"y="+y,"x="+x);
+			}else{
+			  console.log("z="+z,"x="+x,"y="+y);
+			}
+		  }
+		}
+		
+	</script> 
+	
+	
+</body>
+</html>
